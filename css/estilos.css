@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.padre{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align:center;
+  padding: 2px;
+  align-items: center;
+}
+
+.header, .contenido, .footer {
+  flex-grow: 1;
+  flex-basis: 100%;
+  padding: 2px;
+}
+
+.header-contact{
+text-align: center;
+}
+
+.contenido{
+align-content: center;
+}
+
+
+.intro{
+display: flex;
+}
+
+@media all and ()
+  .formulario
+
+@media all and (min-width:600px){
+.contenido {
+  flex: 1 1 auto;
+  flex-flow: row nowrap;
+}
+.formulario{
+height: 100%;
+width: 100%;
+}}
+
+.form-control input:focus {
+  outline: 0;
+  border-color:rgb(114, 0, 53);
+
+}
+
+.form-control .succes input{
+  border-color: green;
+}
+
+.form-control.succes i{
+  visibility: hidden;
+
+}
+small{
+  color: red;
+  visibility: hidden;
+}
+.form-control small {
+  color: red;
+  visibility: hidden;
+  }
+  
+
+  .form-control.error small {
+    visibility: visible;
+    color: red;
+  }
+  
+
+.contenido3{
+  flex-flow: row;
+}
+
+
+@media all and (min-width: 800px){
+  
+}
+
+body {
+  background-color: rgb(236, 217, 220);
+  font-family: 'Lato', sans-serif
+}
+
+body:hover {
+  background-color:  rgb(152, 215, 226);
+  transition-property: all;
+  transition-duration: 1.0s;
+  transition-timing-function: ease-in;
+}
+
+p{
+    text-align: center;
+}
+
+h2{
+text-align: center;
+}
+
+img{
+ 
+margin:20px;
+border-radius: 5px;
+  }
+  
+
+
+header {
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.nav {
+  background-color: rgb(204, 122, 135);
+  color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;   
+
+}
+
+.image-contact {
+  background-image: url("../images/andrijana-bozic-p8DWps55d8I-unsplash.png");
+background-size: cover;
+
+}
+
+
+.my-4{
+  color:rgb(114, 0, 53);
+}
+
+.btn:hover{
+background-color:rgb(228, 186, 192);
+}
+
+footer{
+  background-color: rgb(204, 122, 135);
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.redes{
+  width: fit-content;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+i{
+  color: rgb(114, 0, 53);
+font-size: 25px;
+}
+
+.formulario {
+  display: flex;
+justify-content: center;
+width: 60%;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.barranav{
+
+  display: flex;
+  flex-direction: row;
+}
+
+
+  .sobremi {
+width: 40%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.sobremi img{
+  border-radius: 5px;   
+
+}
+
+
+
+
+
+
